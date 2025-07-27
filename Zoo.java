@@ -7,7 +7,7 @@ public static void main(String[] args) {
     Zoo.add(new Dolphin("Jamal"));
     Zoo.add(new Eagle("Muhammad"));
     Zoo.add(new Lion("Tonkaw"));
-    Zoo.add(new Penguin(""));
+    Zoo.add(new Penguin("ISin"));
 
     for (Animal animal : Zoo) {
         System.err.println(animal.getName()+" Sound : "+animal.MakeSound());
